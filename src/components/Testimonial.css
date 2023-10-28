@@ -1,0 +1,23 @@
+.star{
+    fill:#f4ce14;
+}
+.test{
+    padding:20px;
+    color:#edefee;
+    background-color:#495e57;
+    display:flex;
+    width:auto;
+    justify-content:space-evenly;
+    gap: 30px;
+    font-family: 'Karla';
+    font-size:16pt;
+}
+.head{
+    font-family: 'Markazi';
+    font-size:32pt;
+}
+.para{
+    font-family: 'Karla';
+    text-align:center;
+    font-size:14pt;
+}

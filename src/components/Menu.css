@@ -1,0 +1,106 @@
+body #division{
+    font-family: 'Karla';
+    font-size:12pt;
+    padding:20px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+body #division button{
+    font-weight:medium;
+    padding:15px;
+    border-radius:16px;
+    width:auto;
+    height:max-content;
+    background-color:#F4CE14;
+    font-family:"Karla";
+    font-size:20pt;
+    align-items:flex-start;
+    text-align:left;
+}
+.section{
+    display:grid;
+    width:auto;
+    height:auto;
+    justify-content:center;
+    grid-template-areas:"article1 article2 article3";
+    grid-template-rows:auto;
+    grid-template-columns:auto auto auto;
+    gap:20px;
+}
+.article1{
+    border-radius:16px;
+    transition:0.5s;
+    grid-area: article1;
+    width:auto;
+    background-color:#FBDABB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    font-family: 'Karla';
+    font-size:16pt;
+}
+.article2{
+    border-radius: 16px;
+    transition:0.5s;
+    grid-area: article2;
+    width:auto;
+    background-color:#FBDABB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    font-family: 'Karla';
+    font-size:16pt;
+}
+.article3{
+    border-radius: 16px;
+    transition:0.5s;
+    text-wrap: wrap;
+    grid-area: article3;
+    width:auto;
+    background-color:#FBDABB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    font-family: 'Karla';
+    font-size:16pt;
+}
+.article3 button{
+    font-weight:medium;
+    padding:5px;
+    border-radius:16px;
+    width:auto;
+    height:max-content;
+    background-color:#F4CE14;
+    font-family:"Karla";
+    font-size:12pt;
+    align-items:flex-start;
+    text-align:left;
+}
+.article2 button{
+    font-weight:medium;
+    padding:5px;
+    border-radius:16px;
+    width:auto;
+    height:max-content;
+    background-color:#F4CE14;
+    font-family:"Karla";
+    font-size:12pt;
+    align-items:flex-start;
+    text-align:left;
+}
+.article1 button{
+    font-weight:medium;
+    padding:5px;
+    border-radius:16px;
+    width:auto;
+    height:max-content;
+    background-color:#F4CE14;
+    font-family:"Karla";
+    font-size:12pt;
+    align-items:flex-start;
+    text-align:left;
+}
+.image{
+    border-radius:16px;
+}

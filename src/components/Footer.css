@@ -1,0 +1,48 @@
+#image{
+    padding-top:25px;
+    padding-right:60px;
+    border-radius:0px;
+    justify-content:left;
+}
+footer{
+    padding-top:30px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    gap:20px;
+}
+
+.footerlink li {
+    padding:0px;
+    list-style-type: none;
+    text-align:left;
+    font-family:'Karla';
+    font-size:12pt;
+}
+
+.contact li{
+    padding:0px;
+    list-style-type: none;
+    text-align:left;
+    font-family:'Karla';
+    font-size:12pt;
+}
+
+.social-media li{
+    padding:0px;
+    list-style-type: none;
+    text-align:left;
+    font-family:'Karla';
+    font-size:12pt;
+}
+
+ul h4{
+    text-align:left;
+    font-family:'Markazi';
+    font-size:12pt;
+}
+h6{
+    padding-left:300px;
+    padding-top:150px;
+    text-align:right;
+}

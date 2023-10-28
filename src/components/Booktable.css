@@ -1,0 +1,60 @@
+.form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    padding-bottom:10000px;
+}
+#res-date{
+    color:#333333;
+    padding:2px;
+    font-family:"karla";
+    font-size:12pt;
+}
+#res-time{
+    color:#333333;
+    padding:2px;
+    font-family:"karla";
+    font-size:12pt;
+}
+#occasion{
+    color:#333333;
+    padding:2px;
+    font-family:"karla";
+    font-size:12pt;
+}
+.book{
+    font-family:"Markazi";
+    color:#F4CE14;
+    font-size:32pt;
+    text-align:center;
+}
+form button{
+    font-weight:medium;
+    border-radius:16px;
+    width:fit-content;
+    height:max-content;
+    background-color:#F4CE14;
+    font-family:"Karla";
+    font-size:15pt;
+    align-items:flex-start;
+    text-align:left;
+}
+form label{
+    font-family:"Karla";
+    color:#edefee;
+    font-size:12pt;
+    text-align:left;
+}
+form article{
+    display:flex;
+    padding:30px;
+    border-radius:16px;
+    background-color:#495E57;
+    gap:10px;
+    flex-direction:column;
+}
+form select{
+    padding-bottom:100px;
+}

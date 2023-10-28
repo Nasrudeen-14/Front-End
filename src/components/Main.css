@@ -1,0 +1,43 @@
+main{
+    background-color:#495E57;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+}
+
+main h1{
+    color:#F4CE14;
+    font-family:"Markazi";
+    font-size:32pt;
+    text-align:left;
+}
+main h2{
+    color:#EDEFEE;
+    font-family:"Karla";
+    font-size:20pt;
+    text-align:left
+}
+main p{
+    color:#EDEFEE;
+    font-family:"Karla";
+    font-size:20pt;
+    text-align:left
+}
+main img{
+    border-radius:16px ;
+    height: auto;
+    align-items:flex-start;
+}
+main button{
+    font-weight:medium;
+    padding:15px;
+    border-radius:16px;
+    width:auto;
+    height:max-content;
+    background-color:#F4CE14;
+    font-family:"Karla";
+    font-size:20pt;
+    align-items:flex-start;
+    text-align:left;
+}

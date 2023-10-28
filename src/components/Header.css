@@ -1,0 +1,21 @@
+header{
+    padding: 0px;
+    margin:0px;
+    border:0px;
+    display:inline-flex;
+    align-items: center;
+}
+.logo{
+    text-align:center;
+}
+nav li
+{
+    display:inline-grid;
+    align-items:center;
+    padding:20px;
+    align-items:stretch;
+    list-style-type:none;
+    font-family:'Karla';
+    font-size:18pt;
+    color:#333333;
+}
