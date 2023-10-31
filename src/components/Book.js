@@ -1,15 +1,12 @@
 import './Booktable.css'
 import { useState } from 'react';
-import Header from './Header';
-import Footer from './Footer';
-export default function Booktable(){
+export default function Book(){
 
     const[date,setDate]=useState();
 
     const handleSubmit= (e)=>{e.preventDefault();setDate();}
  return(
     <>
-    <Header/>
     <form className="form" onSubmit={handleSubmit}>
      <h1 className='book'>Book a Table</h1>
     <article >
@@ -35,7 +32,6 @@ export default function Booktable(){
     <button type="submit" disabled={!date} value="Make Your reservation" onClick={()=>alert('Your form has been Successfully submitted')}>Make Your reservation</button>
     </article>
     </form>
-    <Footer/>
     </>
     );
 }

@@ -1,24 +1,24 @@
-import Main from './components/Main';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Menu from './components/Menu';
-import Testimonial from './components/Testimonial';
-import About from "./components/About";
+import Aboutpage from './components/Aboutpage';
 import Booktable from './components/Booktable';
+import Menupage from './components/Menupage';
 import{Routes,Route} from 'react-router-dom';
 import './App.css';
+import Homepage from './components/Homepage';
 function App() {
   return (
     <div className="App">
     <Routes>
+      <Route path="/home" element={<Homepage/>}/>
+    </Routes>
+    <Routes>
       <Route path="/reservation" element={<Booktable/>}/>
     </Routes>
-    <Header/>
-    <Main/>
-    <Menu/>
-    <Testimonial/>
-    <About/>
-    <Footer/>
+    <Routes>
+      <Route path="/about" element={<Aboutpage/>}/>
+    </Routes>
+    <Routes>
+      <Route path="/menu" element={<Menupage/>}/>
+    </Routes>
     </div>
   );
 }
