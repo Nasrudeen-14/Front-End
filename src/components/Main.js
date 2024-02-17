@@ -13,7 +13,7 @@ export default function Main(){
             <button onClick={()=>setToggle(!toggle)}>Reserve a Table</button>
         </section>
         <section className="col2">
-            <img src={rest} alt="Restaurant image" width="350" height="auto"/>
+            <img src={rest} alt="Restaurant" width="350" height="auto"/>
         </section>
         </main>
         {toggle && <Book/>}

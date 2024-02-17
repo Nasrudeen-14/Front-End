@@ -13,7 +13,7 @@ export default function About(){
              Little Lemon is a warm and inviting space, with a modern twist on traditional Mediterranean décor. The restaurant is located in the heart of the city, making it a convenient destination for a casual meal or a special occasion.</p>
          </article>
          <article className="chef">
-            <img src={chef} name="chef" width="500px" height="auto" alt="Chef image"/>
+            <img src={chef} name="chef" width="500px" height="auto" alt="Chef"/>
          </article>
         </section>
     );
